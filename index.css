@@ -1,0 +1,70 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background:url(./Фото/zvezdy_kosmos_nebo_blesk_116409_2560x1600.jpeg);
+  background-size: 100%;
+  font-size: 30px;
+  padding: 0 5px;
+}
+header {
+  color: bisque;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+ul a {
+  color: antiquewhite;
+}
+ul li {
+  color: antiquewhite;
+}
+ul li:hover {
+  color: orange;
+}
+footer {
+  color: antiquewhite;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer main a {
+  font-size: 30px;
+}
+p {
+  color: antiquewhite;
+  font-size: 22px;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+a i {
+  color: antiquewhite;
+}
+.rightpic {
+  float: right;
+  margin: 0 0 5px 5px;
+}
+.owls {
+  margin-left: 88%;
+}
+.animate-gradient {
+	border-radius: 20px;
+	color: #FFFFFF;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: animate_gradient 5s ease infinite;
+}
+ 
+@keyframes animate_gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
